@@ -6,6 +6,7 @@ body {
 
 header {
 	padding: 1em 0;
+	position: relative;
 }
 
 header > ul {
@@ -121,6 +122,27 @@ figcaption {
 }
 
 @media (min-width: 992px) {
+	h1, h2 {
+		text-align: left;
+		padding-left: 50px;
+		
+	}
+
+	footer > h3 {
+		text-align: left;
+		padding-left: 50px;
+	}
+
+	.social-contato {
+		position: absolute;
+		right: 15px;
+		margin: 30px;
+	}
+
+	.sobre {
+		margin-top: 70px;
+	}
+
 	.portfolio {
 		margin-left: 5%;
 	}
