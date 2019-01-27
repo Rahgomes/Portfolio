@@ -19,7 +19,7 @@ header > ul > li {
 }
 
 main {
-	background-color: #f0f0f0;
+	/*background-color: #f0f0f0;*/
 	padding: 2em 0;
 }
 
@@ -39,7 +39,7 @@ h2 {
 
 footer {
 	padding: 1.3em 0;
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 }
 
 footer > h3 {
