@@ -1,0 +1,137 @@
+body {
+	background-color: #f7e8e9;
+	font-size: 10px;
+	font-family: Montserrat, 'Open Sans Condensed', sans-serif;
+}
+
+header {
+	padding: 1em 0;
+}
+
+header > ul {
+	margin-top: 1.5em;
+	margin-bottom: 2.5em;
+	text-align: center;
+}
+
+header > ul > li {
+	display: inline-block;
+}
+
+main {
+	background-color: #f0f0f0;
+	padding: 2em 0;
+}
+
+h1 {
+	font-family: Raleway, 'Open Sans Condensed', sans-serif;
+	font-size: 2.2em;
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+h2 {
+	font-family: Raleway, 'Open Sans Condensed', sans-serif;
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+footer {
+	padding: 1.3em 0;
+	background-color: #ccc;
+}
+
+footer > h3 {
+	font-family: Raleway, 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	text-align: center;
+}
+
+footer > section {
+	font-size: 1.8em;
+	margin-top: 0.3em;
+}
+
+footer > section > div {
+	margin-bottom: 0.5em;
+}
+
+footer > section > div > p {
+	letter-spacing: 1px;
+	margin-bottom: 0.2em;
+}
+
+footer > section > div > span {
+	font-weight: bold;
+}
+
+figcaption {
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.social-contato li {
+	margin-left: 0.5em;
+}
+
+.social-contato a {
+	height: 32px;
+	width: 32px;
+	font-size: 2.2em;
+	display: block;
+}
+
+.portfolio {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+.portfolio > img {
+	margin-bottom: 10px;
+}
+
+.rodape {
+	padding: 1em 3em;
+}
+
+@media (min-width: 576px) {
+	footer > section > div > p {
+		letter-spacing: 1.5px;
+	}
+
+	.portfolio {
+		display: inline-block;
+		margin-left: 1.5em;
+	}
+}
+
+@media (min-width: 768px) {
+	.portfolio {
+		margin-left: 10%;
+	}
+}
+
+@media (min-width: 992px) {
+	.portfolio {
+		margin-left: 5%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		margin: 0 auto;
+	}
+
+	.portfolio {
+		width: auto;
+	}
+}
