@@ -19,11 +19,6 @@ header > ul > li {
 	display: inline-block;
 }
 
-main {
-	/*background-color: #f0f0f0;*/
-	padding: 2em 0;
-}
-
 h1 {
 	font-family: Raleway, 'Open Sans Condensed', sans-serif;
 	font-size: 2.2em;
@@ -36,6 +31,26 @@ h2 {
 	font-size: 1.4em;
 	text-align: center;
 	margin-bottom: 0.2em;
+}
+
+main {
+	/*background-color: #f0f0f0;*/
+	padding: 2em 0;
+}
+
+figure {
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+figure > img {
+	margin-bottom: 10px;
+}
+
+figcaption {
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	margin-top: 5px;
 }
 
 footer {
@@ -52,6 +67,7 @@ footer > h3 {
 footer > section {
 	font-size: 1.8em;
 	margin-top: 0.3em;
+	padding: 1em 3em;
 }
 
 footer > section > div {
@@ -65,12 +81,6 @@ footer > section > div > p {
 
 footer > section > div > span {
 	font-weight: bold;
-}
-
-figcaption {
-	font-size: 1.3em;
-	letter-spacing: 1px;
-	margin-top: 5px;
 }
 
 .container {
@@ -91,32 +101,19 @@ figcaption {
 	display: block;
 }
 
-.portfolio {
-	margin-top: 1.5em;
-	text-align: center;
-}
-
-.portfolio > img {
-	margin-bottom: 10px;
-}
-
-.rodape {
-	padding: 1em 3em;
-}
-
 @media (min-width: 576px) {
-	footer > section > div > p {
-		letter-spacing: 1.5px;
-	}
-
-	.portfolio {
+	figure {
 		display: inline-block;
 		margin-left: 1.5em;
+	}
+
+	footer > section > div > p {
+		letter-spacing: 1.5px;
 	}
 }
 
 @media (min-width: 768px) {
-	.portfolio {
+	figure {
 		margin-left: 10%;
 	}
 }
@@ -126,6 +123,10 @@ figcaption {
 		text-align: left;
 		padding-left: 50px;
 		
+	}
+
+	figure {
+		margin-left: 5%;
 	}
 
 	footer > h3 {
@@ -142,18 +143,14 @@ figcaption {
 	.sobre {
 		margin-top: 70px;
 	}
-
-	.portfolio {
-		margin-left: 5%;
-	}
 }
 
 @media (min-width: 1200px) {
-	.container {
-		margin: 0 auto;
+	figure {
+		width: auto;
 	}
 
-	.portfolio {
-		width: auto;
+	.container {
+		margin: 0 auto;
 	}
 }
