@@ -59,6 +59,7 @@ figure {
 
 figure > img {
 	margin-bottom: 10px;
+	border: 1px solid #949494;
 }
 
 figcaption {
