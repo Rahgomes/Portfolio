@@ -5,17 +5,17 @@ body {
 }
 
 header {
-	padding: 1em 0;
+	padding: 1em 0 3em 0;
 	position: relative;
 }
 
-header > ul {
+nav > ul {
 	margin-top: 1.5em;
 	margin-bottom: 2.5em;
 	text-align: center;
 }
 
-header > ul > li {
+nav > ul > li {
 	display: inline-block;
 }
 
@@ -34,13 +34,15 @@ h2 {
 }
 
 main {
-	/*background-color: #f0f0f0;*/
+	background-color: #f0f0f0;
 	padding: 2em 0;
 }
 
 figure {
 	margin-top: 1.5em;
 	text-align: center;
+	/* margin: 0 25%; Validar no lugar do tex-align: center*/ 
+
 }
 
 figure > img {
@@ -54,14 +56,14 @@ figcaption {
 }
 
 footer {
-	padding: 1.3em 0;
-	/*background-color: #ccc;*/
+	padding: 2.3em 0;
+	background-color: #ccc;
 }
 
-footer > h3 {
+h3 {
 	font-family: Raleway, 'Open Sans Condensed', sans-serif;
 	font-size: 2em;
-	text-align: center;
+	padding: 0 3em;
 }
 
 footer > section {
@@ -104,11 +106,6 @@ footer > section > div > span {
 @media (min-width: 576px) {
 	figure {
 		display: inline-block;
-		margin-left: 1.5em;
-	}
-
-	footer > section > div > p {
-		letter-spacing: 1.5px;
 	}
 
 	.grid-container {
@@ -121,16 +118,15 @@ footer > section > div > span {
 	h1, h2 {
 		text-align: left;
 		padding-left: 50px;
-		
-	}
-
-	figure {
-		margin-left: 5%;
 	}
 
 	footer > h3 {
 		text-align: left;
 		padding-left: 50px;
+	}
+
+	section > div > p {
+		display: inline-block;
 	}
 
 	.social-contato {
@@ -144,18 +140,14 @@ footer > section > div > span {
 	}
 
 	.grid-container {
-		display: inline-block;
-		width: 100%;
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+	}
 }
 
-/* 
 @media (min-width: 1200px) {
-	figure {
-		width: auto;
-	}
-
-	.container {
-		margin: 0 auto;
+	.grid-container {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
 	}
 }
-*/
