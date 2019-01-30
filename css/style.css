@@ -57,9 +57,8 @@ figure {
 	/* colocar a figure sem o text-align:center para colocar o figcaption a esquerda */
 }
 
-figure > img {
+figure > a > img {
 	margin-bottom: 10px;
-	border: 1px solid #949494;
 }
 
 figcaption {
@@ -70,11 +69,6 @@ figcaption {
 
 footer {
 	padding: 2.3em 0;
-}
-
-h3 {
-	font-size: 2em;
-	padding: 0 3em;
 }
 
 footer > section {
@@ -144,13 +138,16 @@ span > a:active {
 		padding-left: 50px;
 	}
 
-	footer > h3 {
-		text-align: left;
-		padding-left: 50px;
-	}
-
 	section > div > p {
 		display: inline-block;
+	}
+
+	img:hover {
+		box-shadow: 0 0 5px #b0b0b0;
+	}
+
+	img:active {
+		box-shadow: 0 0 5px #333;
 	}
 
 	.social-contato {
