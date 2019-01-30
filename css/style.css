@@ -180,8 +180,16 @@ span > a:active {
 		display: inline-block;
 	}
 
+	figure:hover {
+		font-weight: bold;
+	}
+
+	figure:active {
+		text-transform: uppercase;
+	}
+
 	img:hover {
-		box-shadow: 0 0 5px #b0b0b0;
+		box-shadow: 2px 2px 5px #b0b0b0;
 	}
 
 	img:active {
@@ -205,59 +213,59 @@ span > a:active {
 
 	/* ANIMAÇÕES DESKTOP */
 
-.sobre, .rodape {
-	animation: animeRight .7s ease-in-out .4s backwards;
-}
-
-.social-contato {
-	animation: animeLeft .7s ease-in-out .4s backwards;
-}
-
-.grid-container {
-	animation: animeUp .7s ease-in-out .4s backwards;
-}
-
-@keyframes animeRight {
-	0% {
-		transform: translateX(-50px);
-		-webkit-transform: translateX(-50px);
-		opacity: 0;
+	.sobre, .rodape {
+		animation: animeRight .7s ease-in-out .4s backwards;
 	}
 
-	100% {
-		transform: translateX(0px);
-		-webkit-transform: translateX(0px);
-		opacity: 1;
-	}
-}
-
-@keyframes animeLeft {
-	0% {
-		transform: translateX(50px);
-		-webkit-transform: translateX(50px);
-		opacity: 0;
+	.social-contato {
+		animation: animeLeft .7s ease-in-out .4s backwards;
 	}
 
-	100% {
-		transform: translateX(0px);
-		-webkit-transform: translateX(0px);
-		opacity: 1;
-	}
-}
-
-@keyframes animeUp {
-	0% {
-		transform: translateY(50px) ;
-		-webkit-transform: translateY(50px);
-		opacity: 0;
+	.grid-container {
+		animation: animeUp .7s ease-in-out .4s backwards;
 	}
 
-	100% {
-		transform: translateY(0px);
-		-webkit-transform: translateY(0px);
-		opacity: 1;
+	@keyframes animeRight {
+		0% {
+			transform: translateX(-50px);
+			-webkit-transform: translateX(-50px);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateX(0px);
+			-webkit-transform: translateX(0px);
+			opacity: 1;
+		}
 	}
-}
+
+	@keyframes animeLeft {
+		0% {
+			transform: translateX(50px);
+			-webkit-transform: translateX(50px);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateX(0px);
+			-webkit-transform: translateX(0px);
+			opacity: 1;
+		}
+	}
+
+	@keyframes animeUp {
+		0% {
+			transform: translateY(50px) ;
+			-webkit-transform: translateY(50px);
+			opacity: 0;
+		}
+
+		100% {
+			transform: translateY(0px);
+			-webkit-transform: translateY(0px);
+			opacity: 1;
+		}
+	}
 }
 
 @media (min-width: 1200px) {
