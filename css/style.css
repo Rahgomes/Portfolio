@@ -211,6 +211,11 @@ span > a:active {
 		grid-template-columns: 33% 33% 33%;
 	}
 
+	.info {
+		margin-top: 10px;
+		visibility: visible;
+	}
+
 	/* ANIMAÇÕES DESKTOP */
 
 	.sobre, .rodape {
