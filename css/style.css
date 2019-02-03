@@ -65,6 +65,7 @@ figcaption {
 	font-size: 1.3em;
 	letter-spacing: 1px;
 	margin-top: 5px;
+	text-transform: uppercase;
 }
 
 footer {
@@ -124,11 +125,11 @@ span > a:active {
 /* ANIMAÇÕES MOBILE */
 
 .social-contato, .grid-container {
-	animation: animeRight .7s ease-in-out .4s backwards;
+	animation: animeRight .25s ease-in-out .4s backwards;
 }
 
 .sobre, .rodape {
-	animation: animeLeft .7s ease-in-out .4s backwards;
+	animation: animeLeft .25s ease-in-out .4s backwards;
 }
 
 @keyframes animeRight {
@@ -184,16 +185,12 @@ span > a:active {
 		font-weight: bold;
 	}
 
-	figure:active {
-		text-transform: uppercase;
-	}
-
 	img:hover {
-		box-shadow: 2px 2px 5px #b0b0b0;
+		box-shadow: 5px 5px 8px #505050;
 	}
 
 	img:active {
-		box-shadow: 0 0 5px #333;
+		box-shadow: 0 0 12px #333;
 	}
 
 	.social-contato {
@@ -219,15 +216,15 @@ span > a:active {
 	/* ANIMAÇÕES DESKTOP */
 
 	.sobre, .rodape {
-		animation: animeRight .7s ease-in-out .4s backwards;
+		animation: animeRight .35s ease-in-out .4s backwards;
 	}
 
 	.social-contato {
-		animation: animeLeft .7s ease-in-out .4s backwards;
+		animation: animeLeft .35s ease-in-out .4s backwards;
 	}
 
 	.grid-container {
-		animation: animeUp .7s ease-in-out .4s backwards;
+		animation: animeUp .35s ease-in-out .4s backwards;
 	}
 
 	@keyframes animeRight {
