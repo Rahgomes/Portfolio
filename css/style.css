@@ -125,11 +125,11 @@ span > a:active {
 /* ANIMAÇÕES MOBILE */
 
 .social-contato, .grid-container {
-	animation: animeRight .35s ease-in-out .4s backwards;
+	animation: animeRight .40s ease-in-out .4s backwards;
 }
 
 .sobre, .rodape {
-	animation: animeLeft .35s ease-in-out .4s backwards;
+	animation: animeLeft .40s ease-in-out .4s backwards;
 }
 
 @keyframes animeRight {
@@ -216,15 +216,15 @@ span > a:active {
 	/* ANIMAÇÕES DESKTOP */
 
 	.sobre, .rodape {
-		animation: animeRight .45s ease-in-out .4s backwards;
+		animation: animeRight .50s ease-in-out .4s backwards;
 	}
 
 	.social-contato {
-		animation: animeLeft .45s ease-in-out .4s backwards;
+		animation: animeLeft .50s ease-in-out .4s backwards;
 	}
 
 	.grid-container {
-		animation: animeUp .45s ease-in-out .4s backwards;
+		animation: animeUp .50s ease-in-out .4s backwards;
 	}
 
 	@keyframes animeRight {
