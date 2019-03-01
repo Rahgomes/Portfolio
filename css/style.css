@@ -160,6 +160,61 @@ span > a:active {
 	}
 }
 
+/* EFEITO ONDA RODAPÉ */
+.onda-relative {
+	position: relative;
+	padding-top: 100px;
+	width: 100%;
+}
+
+.onda {
+	position: absolute;
+	width: 100%;
+	height: 143px;
+	bottom: 0;
+	left: 0;
+	background: url(../img/onda.png);
+	opacity: 0.2;
+	animation: animate 10s linear infinite;
+}
+
+.onda:before {
+	content: '';
+	width: 100%;
+	height: 143px;
+	background: url(../img/onda.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	animation: animate-reverse 10s linear infinite;
+}
+
+.onda:after {
+	content: '';
+	width: 100%;
+	height: 143px;
+	background: url(../img/onda.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.6;
+	animation-delay: -5s;
+	animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+	0% { background-position: 0; }
+
+	100% { background-position: 1360px; }
+}
+
+@keyframes animate-reverse {
+	0% { background-position: 1360px; }
+
+	100% { background-position: 0; }
+}
+
 @media (min-width: 576px) {
 	figure {
 		display: inline-block;
@@ -168,8 +223,9 @@ span > a:active {
 	.grid-container {
 		display: grid;
 		grid-template-columns: 50% 50%;
+	}
 }
-
+/* FIM EFEITO ONDA RODAPÉ */
 
 @media (min-width: 992px) {
 	h1, h2 {
