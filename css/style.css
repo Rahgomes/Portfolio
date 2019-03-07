@@ -134,7 +134,7 @@ span > a:active {
 .btn-load {
 	padding: 20px;
 	max-width: 100px;
-	background: #888;
+	background: #555;
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.5em;
@@ -152,11 +152,11 @@ span > a:active {
 /* FIM BOTÃO CARREGAR MAIS */
 
 /* ANIMAÇÕES DE ENTRADA MOBILE */
-.social-contato, .grid-container {
+.social-contato, .grid-container, .wrap-button {
 	animation: animeRight .40s ease-in-out .4s backwards;
 }
 
-.sobre, .rodape {
+.sobre, .rodape, .onda-relative {
 	animation: animeLeft .40s ease-in-out .4s backwards;
 }
 
@@ -303,6 +303,14 @@ span > a:active {
 	.btn-load {
 		max-width: 250px;
 		font-size: 2em;
+		transition: all .3s ease-out;
+	}
+
+	.btn-load:hover {
+		background-color: #888;
+		letter-spacing: 5px;
+		transform: scale(1.05);
+		transition: all .3s ease-out;
 	}
 	/* BOTÃO CARREGAR MAIS 992px */
 
@@ -315,7 +323,7 @@ span > a:active {
 		animation: animeLeft .50s ease-in-out .4s backwards;
 	}
 
-	.grid-container {
+	.grid-container, .wrap-button, .onda-relative {
 		animation: animeUp .50s ease-in-out .4s backwards;
 	}
 
