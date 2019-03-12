@@ -1,3 +1,12 @@
+// $(document).ready(function (e) {
+//     $(".contentInfo").hide();
+
+//     $("#info").click(function (e) {
+//         $(".contentInfo").slideToggle();
+//     });
+// }); 
+// Esconder/Mostrar info - Solucionar para aparecer em todos
+
 $(function (){
 
     $(".box-hidden").slice(0, 4).show();
