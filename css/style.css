@@ -51,18 +51,19 @@ main {
 	padding: 2em 0;
 }
 
-figure {
+figure, .figure {
 	margin-top: 1.5em;
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
 	text-align: center;
 }
 
-figure > a > img {
+figure > a > img,
+.figure > a > img {
 	margin-bottom: 10px;
 }
 
-figcaption {
+figcaption, .figcaption {
 	font-size: 1.3em;
 	letter-spacing: 1px;
 	margin-top: 5px;
@@ -274,7 +275,7 @@ span > a:active {
 }
 
 @media (min-width: 576px) {
-	figure {
+	figure, .figure {
 		display: inline-block;
 	}
 
@@ -295,7 +296,8 @@ span > a:active {
 		display: inline-block;
 	}
 
-	figure:hover {
+	figure:hover,
+	.figure:hover {
 		background: linear-gradient(90deg, #ccc, #fff, #ccc);
 	}
 
