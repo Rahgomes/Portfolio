@@ -20,3 +20,8 @@ Atualmente conto com 14 projetos desenvolvidos com o intuito de praticar e domin
 
 Em cada projeto que possuo aqui no Github consequentemente em meu portfolio, descrevi as tecnologias utilizadas para concluir o portfolio
 em questão.
+
+Final release v1.0.0
+
+**************
+
