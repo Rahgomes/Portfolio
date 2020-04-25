@@ -4,7 +4,7 @@ const clean = require('gulp-clean')
 
 function cleanDist() {
 
-    return gulp.src('dist')
+    return gulp.src('dist', {allowEmpty: true})
                 .pipe(clean())
 }
 
