@@ -1,6 +1,7 @@
 const gulp = require('gulp')
 const htmlmin = require('gulp-htmlmin')
 const clean = require('gulp-clean')
+const usemin = require('gulp-usemin')
 
 function cleanDist() {
 
@@ -11,7 +12,8 @@ function cleanDist() {
 function pages() {
 
     return gulp.src('src/**/*.html')
-                .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
+                .pipe(htmlmin({collapseWhitespace: true}))
+                .pipe(usemin())
                 .pipe(gulp.dest('dist'))
 }
 

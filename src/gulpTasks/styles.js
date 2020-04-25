@@ -17,7 +17,7 @@ function stylesBootstrap() {
 
     return gulp.src('src/assets/scss/base/bootstrap/bootstrap.scss')
                 .pipe(sass().on('error', sass.logError))
-                .pipe(concat('bootstrap.min.css'))
+                .pipe(concat('bootstrap.css'))
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
@@ -26,7 +26,7 @@ function stylesFontAwesome() {
 
     return gulp.src('src/assets/scss/base/fontawesome/fontawesome.scss')
                 .pipe(sass().on('error', sass.logError))
-                .pipe(concat('fontawesome.min.css'))
+                .pipe(concat('fontawesome.css'))
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
