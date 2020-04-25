@@ -46,10 +46,12 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background-color: #212529;
 }
 .banner{
-	background-image:url('http://www.hd-freewallpapers.com/latest-wallpapers/abstract-website-backgrounds.jpg');
+	// background-image:url('../../img/ramon-gomes-bg.jpg');
+	background: #ff0000;
 	text-align: center;
     color: #fff;
-   
+	height: 100vh;
+	max-height: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -59,7 +61,11 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background-size: cover;
 }
 .banner-text{
-	padding:200px 0 150px 0;
+	// padding:200px 0 150px 0;
+	display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-end;
 }
 .banner-heading{
 	font-family: 'Lobster', cursive;
