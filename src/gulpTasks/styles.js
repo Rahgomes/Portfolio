@@ -25,22 +25,10 @@ function stylesBootstrap() {
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
 
-function stylesFontAwesome() {
-
-    return gulp.src('src/assets/scss/base/fontawesome/fontawesome.scss')
-                .pipe(sourcemaps.init())
-                .pipe(sass().on('error', sass.logError))
-                .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
-                .pipe(sourcemaps.write('./'))
-                .pipe(gulp.dest('dist/assets/css/base/'))
-}
-
 gulp.task('styles', styles)
 gulp.task('stylesBootstrap', stylesBootstrap)
-gulp.task('stylesFontAwesome', stylesFontAwesome)
 
 module.exports = {
     styles,
-    stylesBootstrap,
-    stylesFontAwesome
+    stylesBootstrap
 }
