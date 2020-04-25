@@ -1,27 +1,33 @@
-const gulp = require('gulp')
-const { series, parallel } = require('gulp')
-const babel = require('gulp-babel')
-const uglify = require('gulp-uglify')
+const gulp = require('gulp'),
+    babel = require('gulp-babel'),
+    uglify = require('gulp-uglify'),
+    sourcemaps = require('gulp-sourcemaps')
 
 function scripts() {
 
     return gulp.src('src/assets/js/module/hero.js')
-                .pipe(uglify())
-                .pipe(gulp.dest('dist/assets/js/module/'))
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('dist/assets/js/module/'))
 }
 
 function scriptsjQuery() {
 
     return gulp.src('src/assets/js/base/jquery.js')
-                .pipe(uglify())
-                .pipe(gulp.dest('dist/assets/js/base/'))
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('dist/assets/js/base/'))
 }
 
 function scriptsBootstrap() {
 
     return gulp.src('src/assets/js/base/bootstrap.js')
-                .pipe(uglify())
-                .pipe(gulp.dest('dist/assets/js/base/'))
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest('dist/assets/js/base/'))
 }
 
 gulp.task('scriptsjQuery', scriptsjQuery)

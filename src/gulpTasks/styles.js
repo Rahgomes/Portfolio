@@ -1,33 +1,37 @@
-const gulp = require('gulp')
-const autoprefixer = require('gulp-autoprefixer')
-const sass = require('gulp-sass')
-const uglifyCss = require('gulp-uglifycss')
-const concat = require('gulp-concat')
+const gulp = require('gulp'),
+      autoprefixer = require('gulp-autoprefixer'),
+      sass = require('gulp-sass'),
+      uglifyCss = require('gulp-uglifycss'),
+      sourcemaps = require('gulp-sourcemaps')
 
 function styles() {
 
     return gulp.src('src/assets/scss/module/hero.scss')
+                .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
                 .pipe(autoprefixer())
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
+                .pipe(sourcemaps.write('./'))
                 .pipe(gulp.dest('dist/assets/css/module/'))
 }
 
 function stylesBootstrap() {
 
     return gulp.src('src/assets/scss/base/bootstrap/bootstrap.scss')
+                .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
-                .pipe(concat('bootstrap.css'))
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
+                .pipe(sourcemaps.write('./'))
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
 
 function stylesFontAwesome() {
 
     return gulp.src('src/assets/scss/base/fontawesome/fontawesome.scss')
+                .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
-                .pipe(concat('fontawesome.css'))
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
+                .pipe(sourcemaps.write('./'))
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
 

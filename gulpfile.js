@@ -1,5 +1,5 @@
-const gulp = require('gulp')
-const { series, parallel } = require('gulp')
+const gulp = require('gulp'),
+      { series, parallel } = require('gulp')
 
 const {pages,cleanDist} = require('./src/gulpTasks/pages')
 const { styles, stylesBootstrap, stylesFontAwesome } = require('./src/gulpTasks/styles')

@@ -1,7 +1,7 @@
-const gulp = require('gulp')
-const browserSync = require('browser-sync')
-const sass = require('gulp-sass')
-const sourcemaps = require('gulp-sourcemaps')
+const gulp = require('gulp'),
+      browserSync = require('browser-sync'),
+      sass = require('gulp-sass'),
+      sourcemaps = require('gulp-sourcemaps')
 
 function watchSass() {
 

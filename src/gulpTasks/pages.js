@@ -1,7 +1,7 @@
-const gulp = require('gulp')
-const htmlmin = require('gulp-htmlmin')
-const clean = require('gulp-clean')
-const usemin = require('gulp-usemin')
+const gulp = require('gulp'),
+      htmlmin = require('gulp-htmlmin'),
+      clean = require('gulp-clean'),
+      usemin = require('gulp-usemin')
 
 function cleanDist() {
 
