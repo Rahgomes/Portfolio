@@ -46,8 +46,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     background-color: #212529;
 }
 .banner{
-	// background-image:url('../../img/ramon-gomes-bg.jpg');
-	background: #ff0000;
+	background-image:url('../../img/ramon-gomes-bg.jpg');
 	text-align: center;
     color: #fff;
 	height: 100vh;
@@ -98,6 +97,11 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 	margin:auto;
 	text-align:center;
 	padding-top:30px;
+}
+
+.svg-contato {
+	height: 30px;
+	width: 30px;
 }
 
 
