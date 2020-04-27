@@ -6,13 +6,24 @@ const gulp = require('gulp'),
 
 function styles() {
 
-    return gulp.src('src/assets/scss/module/hero.scss')
+    return gulp.src('src/assets/scss/module/*.scss')
                 .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
                 .pipe(autoprefixer())
                 .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
                 .pipe(sourcemaps.write('./'))
                 .pipe(gulp.dest('dist/assets/css/module/'))
+}
+
+function stylesLayout() {
+
+    return gulp.src('src/assets/scss/layout/*.scss')
+                .pipe(sourcemaps.init())
+                .pipe(sass().on('error', sass.logError))
+                .pipe(autoprefixer())
+                .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
+                .pipe(sourcemaps.write('./'))
+                .pipe(gulp.dest('dist/assets/css/layout/'))
 }
 
 function stylesBootstrap() {
@@ -27,8 +38,10 @@ function stylesBootstrap() {
 
 gulp.task('styles', styles)
 gulp.task('stylesBootstrap', stylesBootstrap)
+gulp.task('stylesLayout', stylesLayout)
 
 module.exports = {
     styles,
-    stylesBootstrap
+    stylesBootstrap,
+    stylesLayout
 }

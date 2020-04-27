@@ -94,6 +94,7 @@ nav {
 	background-color: #ffffff;
 }
 
+
 .svg-contato {
 	height: 30px;
 	width : 30px;
@@ -101,6 +102,10 @@ nav {
 
 /* mobile view */
 @media (max-width:500px) {
+	.pb-sm-2 {
+		padding-bottom: 1em;
+	}
+	
 	.navbar-nav {
 		background-color: #000;
 		border-top      : 3px solid #fed136;
