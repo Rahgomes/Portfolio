@@ -8,83 +8,180 @@
   <link rel="stylesheet" href="./assets/css/base/bootstrap/bootstrap.css">
   <!-- endbuild -->
 
+  <!-- build:css ../dist/assets/css/base/fonts.css -->
+  <link rel="stylesheet" href="./assets/css/base/font/fonts.css">
+  <!-- endbuild -->
+
   <!-- build:css ../dist/assets/css/module/hero.css -->
   <link rel="stylesheet" href="./assets/css/module/hero.css">
+  <!-- endbuild -->
+
+  <!-- build:css ../dist/assets/css/module/about.css -->
+  <link rel="stylesheet" href="./assets/css/module/about.css">
+  <!-- endbuild -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <!-- build:css ../dist/assets/css/module/hero.css -->
+  <link rel="stylesheet" href="./assets/css/module/card-section.css">
   <!-- endbuild -->
 
   <title>Hello, world!</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
-    <div class="container-fluid">
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Ramon</a>
+<body style="background:#f7f5f6;">
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Ramon</a>
 
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Artigos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-        </ul>
-      <ul class="list-unstyled d-flex">
-        <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/linkedin-in.svg" alt="github"></a></li>
-        <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/twitter.svg" alt="github"></a></li>
-        <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/github.svg" alt="github"></a></li>
-        <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/codepen.svg" alt="github"></a></li>
-        <li><a href="#"><img class="svg-contato" src="./assets/img/envelope-regular.svg" alt="github"></a></li>
-      </ul>
-    </div>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Artigos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
 
-    </div>
-  </nav>
+            </li>
+          </ul>
+          <ul class="list-unstyled d-flex justify-content-center bg-black p-2">
+            <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/linkedin-in.svg" alt="github"></a>
+            </li>
+            <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/twitter.svg" alt="github"></a></li>
+            <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/github.svg" alt="github"></a></li>
+            <li class="pr-3"><a href="#"><img class="svg-contato" src="./assets/img/codepen.svg" alt="github"></a></li>
+            <li><a href="#"><img class="svg-contato" src="./assets/img/envelope-regular.svg" alt="github"></a></li>
+          </ul>
+        </div>
 
-  <div class="banner">
-    <div class="container">
-      <div class="banner-text">
-        <div class="banner-heading">
-          Entusiasta da Tecnologia
+      </div>
+    </nav>
+
+    <div class="banner">
+      <div class="container">
+        <div class="banner-text">
+          <div class="banner-heading">
+            Entusiasta da Tecnologia!
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <section id="about">
-    <div class="container">
-      <div class="text-intro">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
-          ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-          architecto quo inventore harum ex magni, dicta impedit.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
-          ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-          architecto quo inventore harum ex magni, dicta impedit.</p>
+  </header>
+  <main id="main">
+    <div class="about-skew d-none d-sm-block"></div>
+    <section id="about">
+      <div class="container">
+        <div class="row mt-5 p-3 svg-code">
+          <p class="about-text">Ramon Gomes é desenvolvedor Front-end efetivamente a um ano, mas antes disso sempre
+            esteve no meio
+            tecnológico, que girou desde as áreas de suporte técnico (máquinas e servidores) à consultoria de marketing
+            digital.</p>
+          <p class="about-text">De alguns anos para cá o gosto por conhecimento na área da tecnologia só vem aumentando
+            e a necessidade de
+            solidificar os conhecimentos também, com esta mistura e um pouco de motivação venho tentando aperfeiçoar
+            minhas técnicas na área de desenvolvimento e muito embreve me tornar um fullstack developer.</p>
+        </div>
+
       </div>
-      <div class="text-intro">
-        <h2>Artigos recentes</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
-          ex magni, dicta impedit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
-          architecto quo inventore harum ex magni, dicta impedit.</p>
-      </div>
-      <div class="text-intro">
-        <h2>Últimos projetos</h2>
-        <div>
-          <p>Lorem ipsum dolor</p>
-          <p>Lorem ipsum dolor data</p>
+    </section>
+    <section id="card-section">
+      <div class="container">
+        <div class="mt-5">
+          <h2 class="card-section-title mb-5 text-center">Projetos em destaque</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content mb-5">
+                  <div class="card-section-content-icon"> <img src="./assets/img/file-code.svg" alt=""> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>Layout Basic</h2>
+                    <p class="card-section-subtitle-desc">HTML e CSS</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content card-section-content-act">
+                  <div class="card-section-content-icon card-section-content-icon-act"> <i class="fas fa-cogs"></i> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>Ferramentas Front-end</h2>
+                    <p class="card-section-subtitle-desc">HTML, CSS e JQUERY</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content">
+                  <div class="card-section-content-icon"> <i class="fas fa-signature"></i> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>Marvel Comics Clone</h2>
+                    <p class="card-section-subtitle-desc">HTML, CSS e JAVASCRIPT</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <h2 class="card-section-title mb-5 text-center">Últimos projetos</h2>
+            <div class="row">
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content">
+                  <div class="card-section-content-icon"> <i class="fas fa-shield-alt"></i> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>E-mail Marketing Itaú</h2>
+                    <p class="card-section-subtitle-desc">HTML e CSS</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content card-section-content-act">
+                  <div class="card-section-content-icon card-section-content-icon-act"> <i class="far fa-clock"></i> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>Spotify Clone</h2>
+                    <p class="card-section-subtitle-desc">HTML e CSS</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12 col-12">
+                <div class="card-section-content">
+                  <div class="card-section-content-icon"> <i class="fas fa-signature"></i> </div>
+                  <div class="card-section-desc">
+                    <h2 class=card-section-subtitle>RGomes Fotografia</h2>
+                    <p class="card-section-subtitle-desc">HTML e Bootstrap</p>
+                  </div>
+                  <div class="section-heading-line-left"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
   <!-- build:js ../dist/assets/js/base/jquery.js -->
   <script src="./assets/js/base/jquery.js"></script>
   <!-- endbuild -->
