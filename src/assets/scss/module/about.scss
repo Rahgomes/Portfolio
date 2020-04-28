@@ -1,12 +1,19 @@
+$lightColor: #ffffff;
+$darkerColor: #333333;
+$darkColor: #100e17;
+$hoverColor: #fed136;
+$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+
 .about-skew {
     clip-path: polygon(50% 0%, 100% 0, 100% 24%, 0 100%, 0 0);
-    background-color: #000000;
+    background-color: $darkColor;
     height: 200px;
     width: 100%;
 }
 
 .about-text {
-    font-family   : 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-family   : $fontContent;
     font-size: 1.6rem;
 }
 

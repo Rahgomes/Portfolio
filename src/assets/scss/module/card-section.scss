@@ -1,12 +1,20 @@
+$lightColor: #ffffff;
+$darkerColor: #333333;
+$darkColor: #100e17;
+$hoverColor: #fed136;
+$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+
 .card-section-title {
-    font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-family   : $fontTitle;
     font-size: 3rem;
+    color: $darkerColor;
 }
 
 .card-section-content {
     position: relative;
     border: 1px solid #eee;
-    background: #fff;
+    background: $lightColor;
     box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
     border-radius: 5px;
     overflow: hidden;
@@ -37,7 +45,7 @@
 }
 
 .card-section-content-icon i {
-    color: #fff;
+    color: $lightColor;
     font-size: 48px;
     line-height: 65px;
     transition: all 0.4s ease-in-out;
@@ -49,14 +57,15 @@
 }
 
 .card-section-content .card-section-subtitle {
-    color: #333;
+    color: $darkerColor;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
+    font-family   : $fontContent;
 }
 
 .card-section-content .card-section-subtitle-desc {
-    color: #333;
+    color: $darkerColor;
     font-size: 17px;
     font-weight: 400;
     line-height: 1,5;
@@ -68,7 +77,7 @@
     display: block;
     width: 100px;
     height: 3px;
-    background: #333333;
+    background: $darkerColor;
     border-radius: 25%;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -79,10 +88,6 @@
     padding-right: 50px;
 }
 
-.card-section-content:hover .card-section-content-icon img {
-    color: #5f27cd;
-}
-
 .card-section-content:hover:before {
-    background: #fed136;
+    background: $hoverColor;
 }

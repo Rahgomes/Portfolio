@@ -6,7 +6,7 @@ const gulp = require('gulp'),
 
 function styles() {
 
-    return gulp.src('src/assets/scss/module/*.scss')
+    return gulp.src('src/assets/scss/module/module-index.scss')
                 .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
                 .pipe(autoprefixer())
