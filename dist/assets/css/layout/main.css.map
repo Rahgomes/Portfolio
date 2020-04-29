@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA;EACC,mBAAkB;EACf,WAAU;EACV,+BAAsB;KAAtB,4BAAsB;UAAtB,uBAAsB;EACtB,oBAAmB,EACtB;;AAED;EACI,qBAAoB,EACvB","file":"main.css","sourcesContent":["main {\r\n\tposition: relative;\r\n    z-index: 2;\r\n    box-sizing: border-box;\r\n    background: #f7f5f6;;\r\n}\r\n\r\n.mb400 {\r\n    margin-bottom: 400px;\r\n}"]}

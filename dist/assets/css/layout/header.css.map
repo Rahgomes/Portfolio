@@ -1,1 +1,0 @@
-{"version":3,"sources":["header.scss"],"names":[],"mappings":"AAAA;EACC,mBAAkB;EACf,WAAU;EACV,+BAAsB;KAAtB,4BAAsB;UAAtB,uBAAsB,EACzB","file":"header.css","sourcesContent":["header {\r\n\tposition: relative;\r\n    z-index: 2;\r\n    box-sizing: border-box;\r\n}"]}

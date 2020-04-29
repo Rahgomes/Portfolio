@@ -4,7 +4,7 @@ const gulp = require('gulp'),
       uglifyCss = require('gulp-uglifycss'),
       sourcemaps = require('gulp-sourcemaps')
 
-function styles() {
+function stylesModuleIndex() {
 
     return gulp.src('src/assets/scss/module/module-index.scss')
                 .pipe(sourcemaps.init())
@@ -15,9 +15,9 @@ function styles() {
                 .pipe(gulp.dest('dist/assets/css/module/'))
 }
 
-function stylesLayout() {
+function stylesLayoutPages() {
 
-    return gulp.src('src/assets/scss/layout/*.scss')
+    return gulp.src('src/assets/scss/layout/layout-pages.scss')
                 .pipe(sourcemaps.init())
                 .pipe(sass().on('error', sass.logError))
                 .pipe(autoprefixer())
@@ -36,12 +36,12 @@ function stylesBootstrap() {
                 .pipe(gulp.dest('dist/assets/css/base/'))
 }
 
-gulp.task('styles', styles)
+gulp.task('stylesModuleIndex', stylesModuleIndex)
+gulp.task('stylesLayoutPages', stylesLayoutPages)
 gulp.task('stylesBootstrap', stylesBootstrap)
-gulp.task('stylesLayout', stylesLayout)
 
 module.exports = {
-    styles,
-    stylesBootstrap,
-    stylesLayout
+    stylesModuleIndex,
+    stylesLayoutPages,
+    stylesBootstrap
 }
