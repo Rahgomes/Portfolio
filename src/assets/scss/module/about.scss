@@ -12,6 +12,12 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
     width: 100%;
 }
 
+.about-title {
+    font-family   : $fontTitle;
+    font-size: 3rem;
+    color: $darkerColor;
+}
+
 .about-text {
     font-family   : $fontContent;
     font-size: 1.6rem;
@@ -27,4 +33,12 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* mobile view */
+@media (max-width:500px) {
+    .about-skew {
+        height: 50px;
+        background:#f7f5f6;
+    }
 }

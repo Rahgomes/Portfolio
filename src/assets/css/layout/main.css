@@ -1,0 +1,10 @@
+main {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  background: #f7f5f6; }
+
+.mb400 {
+  margin-bottom: 400px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGF5b3V0L21haW4uY3NzIiwic291cmNlcyI6WyJsYXlvdXQvbWFpbi5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIm1haW4ge1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIHotaW5kZXg6IDI7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgYmFja2dyb3VuZDogI2Y3ZjVmNjs7XHJcbn1cclxuXHJcbi5tYjQwMCB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiA0MDBweDtcclxufSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxBQUFBLElBQUksQ0FBQztFQUNKLFFBQVEsRUFBRSxRQUFRO0VBQ2YsT0FBTyxFQUFFLENBQUM7RUFDVixVQUFVLEVBQUUsVUFBVTtFQUN0QixVQUFVLEVBQUUsT0FBTyxHQUN0Qjs7QUFFRCxBQUFBLE1BQU0sQ0FBQztFQUNILGFBQWEsRUFBRSxLQUFLLEdBQ3ZCIn0= */

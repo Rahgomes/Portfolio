@@ -91,3 +91,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 .card-section-content:hover:before {
     background: $hoverColor;
 }
+
+.card-section-link:hover {
+    text-decoration: none;
+}
