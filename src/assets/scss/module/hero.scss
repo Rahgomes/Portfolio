@@ -107,6 +107,10 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 
 /* mobile view */
 @media (max-width:500px) {
+	.hover-line::after {
+		display: none;
+	}
+	
 	.pb-sm-2 {
 		padding-bottom: 1em;
 	}
@@ -120,7 +124,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	}
 
 	.navbar-nav .nav-item .nav-link {
-		padding    : 0.7em 1em !important;
+		padding    : 0.7em 1em;
 		font-size  : 100%;
 		font-weight: 500;
 		text-align : center;
