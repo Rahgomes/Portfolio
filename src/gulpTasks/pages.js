@@ -5,22 +5,34 @@ const gulp = require('gulp'),
 
 function cleanDist() {
 
-    return gulp.src('dist', {allowEmpty: true})
+    return gulp.src('dist', { allowEmpty: true })
                 .pipe(clean())
 }
 
-function pages() {
+function pageIndex() {
 
-    return gulp.src('src/**/*.html')
-                .pipe(htmlmin({collapseWhitespace: true}))
-                .pipe(usemin())
+    return gulp.src('src/index.html')
+                .pipe(usemin({
+                    html: [ htmlmin({ collapseWhitespace: true }) ]
+                }))
                 .pipe(gulp.dest('dist'))
 }
 
-gulp.task('pages', pages)
+function pageContato() {
+
+    return gulp.src('src/contato.html')
+                .pipe(usemin({
+                    html: [ htmlmin({ collapseWhitespace: true }) ]
+                }))
+                .pipe(gulp.dest('dist'))
+}
+
+gulp.task('pageIndex', pageIndex)
+gulp.task('pageContato', pageContato)
 gulp.task('cleanDist', cleanDist)
 
 module.exports = {
-    pages,
+    pageIndex,
+    pageContato,
     cleanDist
 }
