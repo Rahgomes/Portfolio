@@ -18,6 +18,15 @@ function pageIndex() {
                 .pipe(gulp.dest('dist'))
 }
 
+function pageProjetos() {
+
+    return gulp.src('src/projetos.html')
+                .pipe(usemin({
+                    html: [ htmlmin({ collapseWhitespace: true }) ]
+                }))
+                .pipe(gulp.dest('dist'))
+}
+
 function pageContato() {
 
     return gulp.src('src/contato.html')
@@ -28,11 +37,13 @@ function pageContato() {
 }
 
 gulp.task('pageIndex', pageIndex)
+gulp.task('pageProjetos', pageProjetos)
 gulp.task('pageContato', pageContato)
 gulp.task('cleanDist', cleanDist)
 
 module.exports = {
     pageIndex,
+    pageProjetos,
     pageContato,
     cleanDist
 }

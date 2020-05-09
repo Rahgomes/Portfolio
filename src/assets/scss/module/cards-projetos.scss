@@ -1,0 +1,184 @@
+$lightColor: #ffffff;
+$darkerColor: #333333;
+$darkColor: #100e17;
+$hoverColor: #fed136;
+$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+
+.card-section-title {
+    font-family   : $fontTitle;
+    font-size: 3rem;
+    color: $darkerColor;
+}
+
+.content {
+    width: 100%;
+}
+
+.grid {
+    position: relative;
+    // margin: 0 auto;
+    // padding: 1em 0 4em;
+    // max-width: 1000px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Common style */
+
+.projeto-efeito-thumb {
+    position: relative;
+    // float: left;
+    overflow: hidden;
+    margin: 5px 5px;
+    min-width: 320px;
+    max-width: 100%;
+    max-height: 360px;
+    width: 32.5%;
+    background: #000;
+    text-align: center;
+    cursor: pointer;
+}
+
+.projeto-imagem-thumb {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    height: 320px;
+    max-width: 100%;
+    opacity: 0.8;
+
+    max-width: none;
+    width: -webkit-calc(100% + 50px);
+    width: calc(100% + 50px);
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px, 0, 0);
+    transform: translate3d(-40px, 0, 0);
+}
+
+.projeto-content-thumb {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    text-align: left;
+}
+
+.projeto-content-thumb::before,
+.projeto-content-thumb::after {
+    pointer-events: none;
+}
+
+.projeto-content-thumb,
+.projeto-content-thumb > .projeto-link-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.projeto-content-thumb > .projeto-link-thumb {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.projeto-subtitle-thumb {
+    // word-spacing: -0.15em;
+    font-weight: 300;
+    font-size: 1.5rem;
+    // font-family: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+    font-family: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.projeto-subtitle-thumb,
+.projeto-desc-thumb {
+    margin: 0;
+}
+
+.projeto-desc-thumb {
+    letter-spacing: 1px;
+    font-size: .8rem;
+    color: #fff;
+    font-family: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.projeto-content-thumb > .projeto-content-bloco {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.8), rgba(0,0,0,.6), rgba(0,0,0,.0));
+}
+
+.projeto-subtitle-thumb,
+.projeto-desc-thumb,
+.projeto-github {
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+}
+
+.projeto-subtitle-thumb {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+.projeto-github {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 9999;
+}
+
+.projeto-desc-thumb,
+.projeto-github {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+
+.projeto-efeito-thumb:hover .projeto-imagem-thumb,
+.projeto-efeito-thumb:hover .projeto-desc-thumb,
+.projeto-efeito-thumb:hover .projeto-github {
+    opacity: .8;
+}
+
+.projeto-efeito-thumb:hover .projeto-imagem-thumb,
+.projeto-efeito-thumb:hover .projeto-subtitle-thumb,
+.projeto-efeito-thumb:hover .projeto-desc-thumb,
+.projeto-efeito-thumb:hover .projeto-github {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.projeto-efeito-thumb:hover .projeto-desc-thumb {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+}
+
+@media (max-width:500px) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .projeto-efeito-thumb {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        min-width: auto;
+        width: 100%;
+    }
+}

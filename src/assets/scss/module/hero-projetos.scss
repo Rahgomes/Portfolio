@@ -1,0 +1,186 @@
+$lightColor : #ffffff;
+$darkerColor: #333333;
+$darkColor  : #100e17;
+$hoverColor : #fed136;
+$fontTitle  : 'Bangers',
+'Roboto Condensed',
+'poppins',
+'Helvetica Neue',
+Helvetica,
+Arial,
+cursive;
+$fontContent: 'Roboto Condensed',
+'poppins',
+'Helvetica Neue',
+Helvetica,
+Arial,
+cursive;
+
+.navbar-brand {
+	color         : $lightColor;
+	font-size     : 1.5rem;
+	font-family   : $fontTitle;
+	font-weight   : 400;
+	letter-spacing: 0.1em;
+}
+
+.navbar-brand:hover {
+	color: $hoverColor !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+	padding       : 1.1em 1em !important;
+	font-size     : 120%;
+	font-weight   : 500;
+	letter-spacing: 1px;
+	color         : $lightColor;
+	font-family   : $fontTitle;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: $hoverColor;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+	border-top: 3px solid $hoverColor;
+}
+
+.dropdown-item:hover {
+	background-color: $hoverColor;
+	color           : $lightColor;
+}
+
+.nav {
+	transition: padding-top .3s, padding-bottom .3s;
+	border    : none;
+}
+
+.shrink {
+	padding-top     : 0;
+	padding-bottom  : 0;
+	background-color: $darkColor;
+}
+
+.banner {
+	background           : url('../../img/code-banner.png'), #100e17;
+	text-align           : center;
+	color                : $lightColor;
+	height               : 100vh;
+	max-height           : 100%;
+	background-repeat    : no-repeat;
+	background-attachment: scroll;
+	background-position  : center center;
+	background-size      : contain;
+}
+
+.banner-text {
+	display        : flex;
+	justify-content: center;
+	height         : 100vh;
+	align-items    : flex-end;
+}
+
+.banner-heading {
+	font-family  : $fontTitle;
+	font-size    : 75px;
+	font-weight  : 400;
+	line-height  : 100px;
+	margin-bottom: 30px;
+	color        : $lightColor;
+}
+
+.bg-black {
+	background-color: $darkColor;
+}
+
+.bg-white {
+	background-color: $lightColor;
+}
+
+.svg-contato {
+	height: 30px;
+	width : 30px;
+}
+
+.hover-line::after {
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: $lightColor;
+	transition: width .3s;
+}
+
+.hover-line:hover::after {
+	width     : 100%;
+	transition: width .3s;
+}
+
+.about-skew {
+	clip-path       : polygon(50% 0%, 100% 0, 100% 24%, 0 100%, 0 0);
+	background-color: $darkColor;
+	height          : 200px;
+	width           : 100%;
+}
+
+/* mobile view */
+@media (max-width:500px) {
+	.hover-line::after {
+		display: none;
+	}
+
+	.pb-sm-2 {
+		padding-bottom: 1em;
+	}
+
+	.navbar-nav {
+		background-color: $darkColor;
+		border-top      : 3px solid $hoverColor;
+		color           : $lightColor;
+		z-index         : 1;
+		margin-top      : 5px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+		padding    : 0.7em 1em;
+		font-size  : 100%;
+		font-weight: 500;
+		text-align : center;
+	}
+
+	.banner-text {
+		padding: 150px 0 150px 0;
+	}
+
+	.banner-heading {
+		font-size    : 30px;
+		line-height  : 30px;
+		margin-bottom: 20px;
+	}
+
+	.banner-sub-heading {
+		font-size    : 10px;
+		font-weight  : 200;
+		line-height  : 10px;
+		margin-bottom: 40px;
+	}
+
+	.about-skew {
+		height    : 50px;
+		background: #f7f5f6;
+	}
+
+}
+
+@media (max-width:768px) {
+	.banner-text {
+		padding: 150px 0 150px 0;
+	}
+
+	.banner-sub-heading {
+		font-size    : 23px;
+		font-weight  : 200;
+		line-height  : 23px;
+		margin-bottom: 40px;
+	}
+}
