@@ -62,7 +62,7 @@ cursive;
 }
 
 .banner {
-	background           : url('../../img/code-banner.png'), #100e17;
+	background           : url('../../img/projetos.png'), #100e17;
 	text-align           : center;
 	color                : $lightColor;
 	height               : 100vh;
@@ -70,7 +70,7 @@ cursive;
 	background-repeat    : no-repeat;
 	background-attachment: scroll;
 	background-position  : center center;
-	background-size      : contain;
+	background-size      : auto;
 }
 
 .banner-text {
@@ -149,11 +149,11 @@ cursive;
 	}
 
 	.banner-text {
-		padding: 150px 0 150px 0;
+		padding: 150px 0 60px 0;
 	}
 
 	.banner-heading {
-		font-size    : 30px;
+		font-size    : 50px;
 		line-height  : 30px;
 		margin-bottom: 20px;
 	}
@@ -173,10 +173,7 @@ cursive;
 }
 
 @media (max-width:768px) {
-	.banner-text {
-		padding: 150px 0 150px 0;
-	}
-
+	
 	.banner-sub-heading {
 		font-size    : 23px;
 		font-weight  : 200;

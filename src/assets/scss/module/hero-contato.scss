@@ -1,9 +1,20 @@
-$lightColor: #ffffff;
+$lightColor : #ffffff;
 $darkerColor: #333333;
-$darkColor: #100e17;
-$hoverColor: #fed136;
-$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
+$darkColor  : #100e17;
+$hoverColor : #fed136;
+$fontTitle  : 'Bangers',
+'Roboto Condensed',
+'poppins',
+'Helvetica Neue',
+Helvetica,
+Arial,
+cursive;
+$fontContent: 'Roboto Condensed',
+'poppins',
+'Helvetica Neue',
+Helvetica,
+Arial,
+cursive;
 
 .navbar-brand {
 	color         : $lightColor;
@@ -51,7 +62,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .banner {
-	background: #100e17; 
+	background           : #100e17;
 	text-align           : center;
 	color                : $lightColor;
 	height               : 100vh;
@@ -79,13 +90,13 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .heading {
-	font-size    : 7.5rem;
+	font-size: 7.5rem;
 }
 
 .banner-sub-heading {
-	font-size    : 3rem;
-	font-weight  : 200;
-	line-height  : 10px;
+	font-size  : 3rem;
+	font-weight: 200;
+	line-height: 10px;
 	font-family: $fontContent;
 }
 
@@ -103,33 +114,17 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .hover-line::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: $lightColor;
-    transition: width .3s;
+	content   : '';
+	display   : block;
+	width     : 0;
+	height    : 2px;
+	background: $lightColor;
+	transition: width .3s;
 }
 
 .hover-line:hover::after {
-    width: 100%;
-    transition: width .3s;
-}
-
-@media (max-width:768px) {
-	.banner-text {
-		padding: 150px 0 20px 0;
-	}
-
-	.banner-heading {
-		margin-bottom: 20px;
-	}
-
-	.banner-sub-heading {
-		font-size    : 23px;
-		font-weight  : 200;
-		line-height  : 23px;
-	}
+	width     : 100%;
+	transition: width .3s;
 }
 
 /* mobile view */
@@ -137,11 +132,11 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	.hover-line::after {
 		display: none;
 	}
-	
+
 	.pb-sm-2 {
 		padding-bottom: 1em;
 	}
-	
+
 	.navbar-nav {
 		background-color: $darkColor;
 		border-top      : 3px solid $hoverColor;
@@ -158,7 +153,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	}
 
 	.banner-text {
-		padding: 150px 0 150px 0;
+		padding: 150px 0 80px 0;
 	}
 
 	.banner-heading {
@@ -166,13 +161,29 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	}
 
 	.heading {
-		font-size    : 3rem;
+		font-size: 3rem;
 	}
 
 	.banner-sub-heading {
-		font-size    : 2rem;
-		font-weight  : 200;
-		line-height  : 1.5;
+		font-size  : 2rem;
+		font-weight: 200;
+		line-height: 1.5;
 	}
 
+}
+
+@media (max-width:768px) {
+	// .banner-text {
+	// 	padding: 150px 0 20px 0;
+	// }
+
+	.banner-heading {
+		margin-bottom: 20px;
+	}
+
+	.banner-sub-heading {
+		font-size  : 23px;
+		font-weight: 200;
+		line-height: 23px;
+	}
 }

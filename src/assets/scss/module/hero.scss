@@ -5,7 +5,8 @@ $hoverColor: #fed136;
 $fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 
-.navbar-brand {
+.navbar-brand,
+.main-title-brand {
 	color         : $lightColor;
 	font-size     : 1.5rem;
 	font-family   : $fontTitle;
@@ -13,7 +14,8 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	letter-spacing: 0.1em;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover,
+.main-title-brand:hover {
 	color: $hoverColor !important;
 }
 
@@ -59,7 +61,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	background-repeat    : no-repeat;
 	background-attachment: scroll;
 	background-position  : center center;
-	background-size      : contain;
+	background-size      : auto;
 }
 
 .banner-text {
@@ -131,7 +133,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	}
 
 	.banner-text {
-		padding: 150px 0 150px 0;
+		padding: 150px 0 60px 0;
 	}
 
 	.banner-heading {
@@ -150,10 +152,6 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 @media (max-width:768px) {
-	.banner-text {
-		padding: 150px 0 150px 0;
-	}
-
 	.banner-sub-heading {
 		font-size    : 23px;
 		font-weight  : 200;

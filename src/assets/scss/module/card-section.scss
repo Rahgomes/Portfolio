@@ -95,3 +95,10 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 .card-section-link:hover {
     text-decoration: none;
 }
+
+/* mobile view */
+@media (max-width:500px) {
+    .card-section-subtitle {
+        width: 50%;
+    }
+}

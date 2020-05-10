@@ -181,4 +181,17 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
         min-width: auto;
         width: 100%;
     }
+
+    .projeto-desc-thumb {
+        display: none;
+    }
+
+    .projeto-github {
+        position: absolute;
+        right: 5px;
+        bottom: 50%;
+        transform: translate(0,-50%);
+        z-index: 9999;
+        opacity: 1;
+    }
 }
