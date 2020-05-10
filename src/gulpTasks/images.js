@@ -4,7 +4,13 @@ const gulp = require('gulp'),
 function images() {
 
     return gulp.src('src/assets/img/**/*.*')
-                .pipe(imagemin())
+                .pipe(imagemin({
+                    progressive: true,
+                    svgoPlugins: [
+                        {removeViewBox: false},
+                        {cleanupIDs: false}
+                    ]
+                }))
                 .pipe(gulp.dest('dist/assets/img/'))
 }
 

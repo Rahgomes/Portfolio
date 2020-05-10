@@ -1,7 +1,8 @@
 const gulp = require('gulp'),
       htmlmin = require('gulp-htmlmin'),
       clean = require('gulp-clean'),
-      usemin = require('gulp-usemin')
+      usemin = require('gulp-usemin'),
+      inlineSource = require('gulp-inline-source')
 
 function cleanDist() {
 
@@ -12,6 +13,7 @@ function cleanDist() {
 function pageIndex() {
 
     return gulp.src('src/index.html')
+                .pipe(inlineSource())
                 .pipe(usemin({
                     html: [ htmlmin({ collapseWhitespace: true }) ]
                 }))
@@ -21,6 +23,7 @@ function pageIndex() {
 function pageProjetos() {
 
     return gulp.src('src/projetos.html')
+                .pipe(inlineSource())
                 .pipe(usemin({
                     html: [ htmlmin({ collapseWhitespace: true }) ]
                 }))
@@ -30,6 +33,7 @@ function pageProjetos() {
 function pageContato() {
 
     return gulp.src('src/contato.html')
+                .pipe(inlineSource())
                 .pipe(usemin({
                     html: [ htmlmin({ collapseWhitespace: true }) ]
                 }))

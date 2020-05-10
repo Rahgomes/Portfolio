@@ -15,6 +15,17 @@ function stylesModuleIndex() {
                 .pipe(gulp.dest('dist/assets/css/module/'))
 }
 
+function stylesModuleProjetos() {
+
+    return gulp.src('src/assets/scss/module/module-projetos.scss')
+                .pipe(sourcemaps.init())
+                .pipe(sass().on('error', sass.logError))
+                .pipe(autoprefixer())
+                .pipe(uglifyCss({"maxLineLen": 80,"uglyComments": true}))
+                .pipe(sourcemaps.write('./'))
+                .pipe(gulp.dest('dist/assets/css/module/'))
+}
+
 function stylesModuleContato() {
 
     return gulp.src('src/assets/scss/module/module-contato.scss')
@@ -58,12 +69,14 @@ function stylesFonts() {
 
 gulp.task('stylesModuleIndex', stylesModuleIndex)
 gulp.task('stylesModuleContato', stylesModuleContato)
+gulp.task('stylesModuleProjetos', stylesModuleProjetos)
 gulp.task('stylesLayoutPages', stylesLayoutPages)
 gulp.task('stylesBootstrap', stylesBootstrap)
 gulp.task('stylesFonts', stylesFonts)
 
 module.exports = {
     stylesModuleIndex,
+    stylesModuleProjetos,
     stylesModuleContato,
     stylesLayoutPages,
     stylesBootstrap,

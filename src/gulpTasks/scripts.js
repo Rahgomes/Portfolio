@@ -1,6 +1,9 @@
 const gulp = require('gulp'),
     babel = require('gulp-babel'),
     uglify = require('gulp-uglify'),
+    uglifyJs = require('gulp-uglifyjs'),
+    minify = require('gulp-minify'),
+    concat = require('gulp-concat'),
     sourcemaps = require('gulp-sourcemaps')
 
 function scripts() {

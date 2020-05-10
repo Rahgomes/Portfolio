@@ -1,0 +1,27 @@
+.main-bg {
+    background:#f7f5f6;
+}
+
+.second-bg {
+    background:#100e17;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #100e17;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f7f5f6;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cecece;
+  }
