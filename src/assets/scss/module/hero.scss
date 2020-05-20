@@ -1,22 +1,15 @@
-$lightColor: #ffffff;
-$darkerColor: #333333;
-$darkColor: #100e17;
-$hoverColor: #fed136;
-$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-
 .navbar-brand,
 .main-title-brand {
-	color         : $lightColor;
+	color         : #ffffff;
 	font-size     : 1.5rem;
-	font-family   : $fontTitle;
+	font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 	font-weight   : 400;
 	letter-spacing: 0.1em;
 }
 
 .navbar-brand:hover,
 .main-title-brand:hover {
-	color: $hoverColor !important;
+	color: #fed136 !important;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -24,21 +17,21 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	font-size     : 120%;
 	font-weight   : 500;
 	letter-spacing: 1px;
-	color         : $lightColor;
-	font-family   : $fontTitle;
+	color         : #ffffff;
+	font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-	color: $hoverColor;
+	color: #fed136;
 }
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
-	border-top: 3px solid $hoverColor;
+	border-top: 3px solid #fed136;
 }
 
 .dropdown-item:hover {
-	background-color: $hoverColor;
-	color           : $lightColor;
+	background-color: #fed136;
+	color           : #ffffff;
 }
 
 .nav {
@@ -49,13 +42,13 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 .shrink {
 	padding-top     : 0;
 	padding-bottom  : 0;
-	background-color: $darkColor;
+	background-color: #100e17;
 }
 
 .banner {
-	background: url('../../img/code-banner.png'),#100e17; 
+	background: url('../../../assets/img/code-banner.png'),#100e17; 
 	text-align           : center;
-	color                : $lightColor;
+	color                : #ffffff;
 	height               : 100vh;
 	max-height           : 100%;
 	background-repeat    : no-repeat;
@@ -72,20 +65,20 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .banner-heading {
-	font-family  : $fontTitle;
+	font-family  : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 	font-size    : 75px;
 	font-weight  : 400;
 	line-height  : 100px;
 	margin-bottom: 30px;
-	color        : $lightColor;
+	color        : #ffffff;
 }
 
 .bg-black {
-	background-color: $darkColor;
+	background-color: #100e17;
 }
 
 .bg-white {
-	background-color: $lightColor;
+	background-color: #ffffff;
 }
 
 .svg-contato {
@@ -98,7 +91,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
     display: block;
     width: 0;
     height: 2px;
-    background: $lightColor;
+    background: #ffffff;
     transition: width .3s;
 }
 
@@ -118,9 +111,9 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 	}
 	
 	.navbar-nav {
-		background-color: $darkColor;
-		border-top      : 3px solid $hoverColor;
-		color           : $lightColor;
+		background-color: #100e17;
+		border-top      : 3px solid #fed136;
+		color           : #ffffff;
 		z-index         : 1;
 		margin-top      : 5px;
 	}

@@ -1,25 +1,18 @@
-$lightColor: #ffffff;
-$darkerColor: #333333;
-$darkColor: #100e17;
-$hoverColor: #fed136;
-$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-
 .about-skew {
     clip-path: polygon(50% 0%, 100% 0, 100% 24%, 0 100%, 0 0);
-    background-color: $darkColor;
+    background-color: #100e17;
     height: 200px;
     width: 100%;
 }
 
 .about-title {
-    font-family   : $fontTitle;
+    font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
     font-size: 3rem;
-    color: $darkerColor;
+    color: #333333;
 }
 
 .about-text {
-    font-family   : $fontContent;
+    font-family   : 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
     font-size: 1.6rem;
 }
 
@@ -28,7 +21,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .svg-code::after {
-    content: url(../../img/code.svg);
+    content: url('../../../assets/img/code.svg');
     position: absolute;
     left: 50%;
     top: 50%;

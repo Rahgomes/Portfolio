@@ -1,14 +1,7 @@
-$lightColor: #ffffff;
-$darkerColor: #333333;
-$darkColor: #100e17;
-$hoverColor: #fed136;
-$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-
 .card-section-title {
-    font-family   : $fontTitle;
+    font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
     font-size: 3rem;
-    color: $darkerColor;
+    color: #333333;
 }
 
 .content {
@@ -17,9 +10,6 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 
 .grid {
     position: relative;
-    // margin: 0 auto;
-    // padding: 1em 0 4em;
-    // max-width: 1000px;
     list-style: none;
     text-align: center;
     display: flex;

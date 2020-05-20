@@ -1,20 +1,13 @@
-$lightColor: #ffffff;
-$darkerColor: #333333;
-$darkColor: #100e17;
-$hoverColor: #fed136;
-$fontTitle: 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-$fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
-
 .card-section-title {
-    font-family   : $fontTitle;
+    font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
     font-size: 3rem;
-    color: $darkerColor;
+    color: #333333;
 }
 
 .card-section-content {
     position: relative;
     border: 1px solid #eee;
-    background: $lightColor;
+    background: #ffffff;
     box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
     border-radius: 5px;
     overflow: hidden;
@@ -45,7 +38,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .card-section-content-icon i {
-    color: $lightColor;
+    color: #ffffff;
     font-size: 48px;
     line-height: 65px;
     transition: all 0.4s ease-in-out;
@@ -57,15 +50,15 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .card-section-content .card-section-subtitle {
-    color: $darkerColor;
+    color: #333333;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
-    font-family   : $fontContent;
+    font-family   : 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
 .card-section-content .card-section-subtitle-desc {
-    color: $darkerColor;
+    color: #333333;
     font-size: 17px;
     font-weight: 400;
     line-height: 1,5;
@@ -77,7 +70,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
     display: block;
     width: 100px;
     height: 3px;
-    background: $darkerColor;
+    background: #333333;
     border-radius: 25%;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -89,7 +82,7 @@ $fontContent: 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial,
 }
 
 .card-section-content:hover:before {
-    background: $hoverColor;
+    background: #fed136;
 }
 
 .card-section-link:hover {
