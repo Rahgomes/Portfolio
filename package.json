@@ -45,6 +45,6 @@
     "gulp-uglifycss": "^1.0.9",
     "gulp-uglifyjs": "^0.6.2",
     "gulp-usemin": "^0.3.30",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
