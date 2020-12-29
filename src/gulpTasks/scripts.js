@@ -8,7 +8,7 @@ const gulp = require('gulp'),
 
 function scripts() {
 
-    return gulp.src('src/assets/js/module/hero.js')
+    return gulp.src('src/assets/js/module/*.js')
         .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(sourcemaps.write('./'))

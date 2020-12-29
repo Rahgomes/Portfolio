@@ -1,6 +1,6 @@
 .about-skew {
     clip-path: polygon(50% 0%, 100% 0, 100% 24%, 0 100%, 0 0);
-    background-color: #100e17;
+    background-color: #3d2c60;
     height: 200px;
     width: 100%;
 }
@@ -8,7 +8,7 @@
 .about-title {
     font-family   : 'Bangers', 'Roboto Condensed', 'poppins', 'Helvetica Neue', Helvetica, Arial, cursive;
     font-size: 3rem;
-    color: #333333;
+    color: #3d2c60;
 }
 
 .about-text {
@@ -26,6 +26,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
 }
 
 /* mobile view */

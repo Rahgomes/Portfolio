@@ -7,7 +7,7 @@
 }
 
 .navbar-brand:hover {
-	color: #fed136 !important;
+	color: #b5d333 !important;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -20,15 +20,15 @@
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-	color: #fed136;
+	color: #b5d333;
 }
 
 .navbar-expand-md .navbar-nav .dropdown-menu {
-	border-top: 3px solid #fed136;
+	border-top: 3px solid #b5d333;
 }
 
 .dropdown-item:hover {
-	background-color: #fed136;
+	background-color: #b5d333;
 	color           : #ffffff;
 }
 
@@ -40,11 +40,11 @@
 .shrink {
 	padding-top     : 0;
 	padding-bottom  : 0;
-	background-color: #100e17;
+	background-color: #3d2c60;
 }
 
 .banner {
-	background           : #100e17;
+	background           : #3d2c60;
 	text-align           : center;
 	color                : #ffffff;
 	height               : 100vh;
@@ -83,7 +83,7 @@
 }
 
 .bg-black {
-	background-color: #100e17;
+	background-color: #3d2c60;
 }
 
 .bg-white {
@@ -91,8 +91,8 @@
 }
 
 .svg-contato {
-	height: 30px;
-	width : 30px;
+	height: 25px;
+	width : 25px;
 }
 
 .hover-line::after {
@@ -120,8 +120,8 @@
 	}
 
 	.navbar-nav {
-		background-color: #100e17;
-		border-top      : 3px solid #fed136;
+		background-color: #3d2c60;
+		border-top      : 3px solid #b5d333;
 		color           : #ffffff;
 		z-index         : 1;
 		margin-top      : 5px;

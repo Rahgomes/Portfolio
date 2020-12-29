@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="./assets/css/module/module-projetos.css">
     <!-- endbuild -->
 
+    <link inline rel="stylesheet" href="./assets/css/module/botao-topo.css">
+
     <title>Projetos | Projetos em HTML, CSS, JS e mais</title>
 </head>
 
@@ -35,7 +37,9 @@
     <nav class="navbar nav navbar-expand-md navbar-dark fixed-top" id="banner">
         <div class="container-fluid">
             <!-- Brand -->
-            <a class="navbar-brand hover-line" href="index.html" title="Ramon">Ramon</a>
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="./assets/img/logo.png" alt="Logo Ramon Gomes" title="Logo Ramon Gomes">
+            </a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -52,6 +56,18 @@
                         <a class="nav-link hover-line" href="projetos.html" title="Projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link hover-line" href="http://www.ferramentas.ramongomes.com.br/ferramentas"
+                            target="_blank" title="Ferramentas">Ferramentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-line" href="http://www.ramongomes.com.br/ferramentasfrontend/"
+                            target="_blank" title="Ferramentas Front-end">Ferramentas Front-end</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-line" href="http://blog.ramongomes.com.br/" target="_blank"
+                            title="Blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link hover-line" href="contato.html" title="Contato">Contato</a>
                     </li>
                 </ul>
@@ -60,18 +76,24 @@
                             title="Linkedin"><img class="svg-contato" src="./assets/img/linkedin-in.svg" alt="Linkedin"
                                 title="Linkedin"></a>
                     </li>
-                    <li class="pr-3"><a href="https://twitter.com/rahgomes1992" class="hover-line" title="Twitter"><img
-                                class="svg-contato" src="./assets/img/twitter.svg" alt="Twitter" title="Twitter"></a>
-                    </li>
+                    <!-- <li class="pr-3"><a href="https://twitter.com/rahgomes1992" class="hover-line" title="Twitter"><img
+                          class="svg-contato" src="./assets/img/twitter.svg" alt="Twitter" title="Twitter"></a>
+                      </li> -->
                     <li class="pr-3"><a href="https://github.com/Rahgomes" class="hover-line" title="Github"><img
-                                class="svg-contato" src="./assets/img/github.svg" alt="Github" title="Github"></a></li>
+                                class="svg-contato" src="./assets/img/github.svg" alt="Github" title="Github"></a>
+                    </li>
                     <li class="pr-3"><a href="https://codepen.io/rahgomes/" class="hover-line" title="Codepen"><img
                                 class="svg-contato" src="./assets/img/codepen.svg" alt="Codepen" title="Codepen"></a>
+                    </li>
+                    <li class="pr-3"><a href="https://codesandbox.io/u/Rahgomes" class="hover-line"
+                            title="Code Sandbox"><img class="svg-contato" src="./assets/img/codesandbox.svg"
+                                alt="Code Sandbox" title="Code Sandbox"></a>
                     </li>
                     <li><a href="mailto:ramon_gds@hotmail.com" class="hover-line"
                             title="Entre em contato via e-mail"><img class="svg-contato"
                                 src="./assets/img/envelope-regular.svg" alt="Entre em contato via e-mail"
-                                title="Entre em contato via e-mail"></a></li>
+                                title="Entre em contato via e-mail"></a>
+                    </li>
                 </ul>
             </div>
 
@@ -115,63 +137,41 @@
                                 </figcaption>
                             </figure>
                             <figure class="projeto-efeito-thumb">
-                                <img class="projeto-imagem-thumb" src="./assets/img/marvel-comics-clone.jpg"
-                                    alt="Marvel Comics clone" title="Marvel Comics clone" />
+                                <img class="projeto-imagem-thumb" src="./assets/img/ferramentas-rah.jpg"
+                                    alt="Ferramentas do Rah" title="Ferramentas do Rah" />
                                 <figcaption class="projeto-content-thumb">
                                     <div class="projeto-content-bloco">
-                                        <h2 class="pb-1 projeto-subtitle-thumb">Marvel <span
-                                                class="font-weight-bold">Comics clone</span></h2>
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Ferramentas do <span
+                                                class="font-weight-bold">Rah</span></h2>
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
-                                                utilizadas:</span> HTML, CSS e JAVASCRIPT</p>
+                                                utilizadas:</span> HTML, CSS, JAVASCRIPT e PHP</p>
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
-                                            Desafio feito no início de 2019 com o intuito de
-                                            replicar a página da Marvel e consumir sua API.</p>
+                                            Site feito com o intuito de ajudar a comunidade com ferramentas úteis.</p>
                                         <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
-                                            10/03/2019</p>
-                                        <a href="https://github.com/Rahgomes/Projeto-Marvel-Comics"
-                                            title="Marvel Comics clone" rel="nofollow" target="_blank">
-                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
-                                                data-prefix="fab" data-icon="github"
-                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                                                <path fill="#ffffff"
-                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-                                                </path>
-                                            </svg>
-                                        </a>
+                                            13/11/2020</p>
                                     </div>
-                                    <a class="projeto-link-thumb" href="http://ramongomes.com.br/marvel-comics/"
-                                        title="Ver Portfolio: Marvel Comics clone" rel="nofollow" target="_blank">Ver
+                                    <a class="projeto-link-thumb" href="http://www.ferramentas.ramongomes.com.br/"
+                                        title="Ver Portfolio: Ferramentas do Rah" rel="nofollow" target="_blank">Ver
                                         Portfolio</a>
                                 </figcaption>
                             </figure>
                             <figure class="projeto-efeito-thumb">
-                                <img class="projeto-imagem-thumb" src="./assets/img/e-mail-marketing.jpg"
-                                    alt="E-mail Marketing" title="E-mail Marketing" />
+                                <img class="projeto-imagem-thumb" src="./assets/img/blog-rah.jpg" alt="Blog do Rah"
+                                    title="Blog do Rah" />
                                 <figcaption class="projeto-content-thumb">
                                     <div class="projeto-content-bloco">
-                                        <h2 class="projeto-subtitle-thumb">E-mail <span
-                                                class="font-weight-bold">Marketing</span></h2>
+                                        <h2 class="projeto-subtitle-thumb">Blog do <span
+                                                class="font-weight-bold">Rah</span></h2>
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
-                                                utilizadas:</span> HTML e CSS</p>
+                                                utilizadas:</span> WORDPRESS</p>
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
-                                            Desafio feito em 2020.</p>
+                                            Blog feito com o intuito de ajudar a comunidade de diversas áreas, como
+                                            programação, marketing digital e etc.</p>
                                         <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
-                                            22/03/2020</p>
-                                        <a href="https://github.com/Rahgomes/email-marketing" title="E-mail Marketing"
-                                            rel="nofollow" target="_blank">
-                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
-                                                data-prefix="fab" data-icon="github"
-                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
-                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
-                                                <path fill="#ffffff"
-                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-                                                </path>
-                                            </svg>
-                                        </a>
+                                            20/10/2020</p>
                                     </div>
-                                    <a class="projeto-link-thumb" href="http://ramongomes.com.br/email-marketing/"
-                                        title="Ver Portfolio: E-mail Marketing" rel="nofollow" target="_blank">Ver
+                                    <a class="projeto-link-thumb" href="http://blog.ramongomes.com.br/"
+                                        title="Ver Portfolio: Blog do Rah" rel="nofollow" target="_blank">Ver
                                         Portfolio</a>
                                 </figcaption>
                             </figure>
@@ -186,8 +186,413 @@
                     <div class="content">
                         <div class="grid">
                             <figure class="projeto-efeito-thumb">
-                                <img class="projeto-imagem-thumb" src="./assets/img/botoes-redes-sociais-fixo.jpg" alt="Botões Redes Sociais Fixo"
-                                    title="Botões Redes Sociais Fixo" />
+                                <img class="projeto-imagem-thumb" src="./assets/img/botao-hover-personalizado.jpg"
+                                    alt="Botões com hover personalizado" title="Botões com hover personalizado" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Botões <span
+                                                class="font-weight-bold">hover personalizado</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML e CSS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Botões com efeitos de hover diferenciados para rápida utilização em projetos
+                                            diversos.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            07/12/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/Bot%C3%A3o%20com%20Hover%20Personalizado"
+                                            title="Botões com hover personalizado" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/oNzLePd"
+                                        title="Ver Portfolio: Botões com hover personalizado" rel="nofollow"
+                                        target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/box-background-hover.jpg"
+                                    alt="Box Background Hover" title="Box Background Hover" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Box Background <span
+                                                class="font-weight-bold">Hover</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML e CSS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Thumbnails com efeitos de hover personalizados, úteis para utilização rápida
+                                            em projetos.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            07/12/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/Box%20Background%20Hover%20Effect"
+                                            title="Box Background Hover" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/yLaJoKe"
+                                        title="Ver Portfolio: Box Background Hover" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/botao-backto-top.jpg"
+                                    alt="Botão Voltar ao Topo" title="Botão Voltar ao Topo" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Botão <span
+                                                class="font-weight-bold">Voltar ao Topo</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML e CSS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Snippet simples de botão para voltar ao topo quando é feito o scroll na
+                                            página para baixo.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            07/12/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/Back%20to%20Top%20Button"
+                                            title="Botão Voltar ao Topo" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/bGwergJ"
+                                        title="Ver Portfolio: Botão Voltar ao Topo" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/botao-carregar-mais.jpg"
+                                    alt="Botão Load More" title="Botão Load More" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Botão <span
+                                                class="font-weight-bold">Load More</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML, CSS e JQUERY</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Snippet simples para rápida utilização em projetos para lazyload de imagens
+                                            através do famoso botão "loadmore", ou carregar mais.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            06/12/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/botao%20load%20more"
+                                            title="Botão Load More" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/gOwrEbW"
+                                        title="Ver Portfolio: Botão Load More" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/calculadora-reactjs.jpg"
+                                    alt="Calculadora em Reactjs" title="Calculadora em Reactjs" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Calculadora em <span
+                                                class="font-weight-bold">Reactjs</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> CSS e REACTJS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Calculadora componentizada através do framework javascript.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            28/09/2020</p>
+                                        <a href="https://github.com/Rahgomes/CodeSandbox/tree/master/calculadora"
+                                            title="Calculadora em Reactjs" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codesandbox.io/s/pensive-tu-nzqsd"
+                                        title="Ver Portfolio: Calculadora em Reactjs" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/app-grade-alunos.jpg"
+                                    alt="APP Grade de Alunos - Front-end" title="APP Grade de Alunos - Front-end" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">APP <span class="font-weight-bold">Grade
+                                                de Alunos</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> BOOTSTRAP e REACTJS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Projeto "CRUD" Front-end de um APP de grade de alunos.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            06/09/2020</p>
+                                        <a href="https://github.com/Rahgomes/grades-app"
+                                            title="APP Grade de Alunos - Front-end" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb"
+                                        href="https://app-grades-estudantes.herokuapp.com/grade"
+                                        title="Ver Portfolio: APP Grade de Alunos - Front-end" rel="nofollow"
+                                        target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/api-grade-alunos.jpg"
+                                    alt="API Grade de Alunos - Back-end" title="API Grade de Alunos - Back-end" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">API <span class="font-weight-bold">Grade
+                                                de Alunos</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> NODEJS E MONGODB</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Projeto Back-end de um APP de grade de alunos com deploy contínuo no Heroku.
+                                        </p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            05/09/2020</p>
+                                        <a href="https://github.com/Rahgomes/grades-api"
+                                            title="API Grade de Alunos - Back-end" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb"
+                                        href="https://api-grades-estudantes.herokuapp.com/grade"
+                                        title="Ver Portfolio: API Grade de Alunos - Back-end" rel="nofollow"
+                                        target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/radio-podcast.jpg"
+                                    alt="Rádio Podcast" title="Rádio Podcast" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Rádio <span
+                                                class="font-weight-bold">Podcast</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML, CSS e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            API consumida na qual retorna algumas informações de alguns podcasts, é algo
+                                            estático que não traz a rádio em si, apenas os dados.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            24/07/2020</p>
+                                        <a href="https://github.com/Rahgomes/igti-full-stack/tree/master/javascript/radio-podcast"
+                                            title="Rádio Podcast" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="http://www.ramongomes.com.br/radio-podcast/"
+                                        title="Ver Portfolio: Rádio Podcast" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/pesquisa-usuarios.jpg"
+                                    alt="Pesquisa de Usuários" title="Pesquisa de Usuários" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Pesquisa de <span
+                                                class="font-weight-bold">Usuários</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> BOOTSTRAP e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            API consumida na qual retorna alguns dados estatísticos dos usuários
+                                            encontrados.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            21/07/2020</p>
+                                        <a href="https://github.com/Rahgomes/igti-full-stack/tree/master/javascript/pesquisa-usuarios"
+                                            title="Pesquisa de Usuários" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="http://www.ramongomes.com.br/filtro-usuarios/"
+                                        title="Ver Portfolio: Pesquisa de Usuários" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/lista-paises.jpg"
+                                    alt="Lista de Países" title="Lista de Países" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Lista de <span
+                                                class="font-weight-bold">Países</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> BOOTSTRAP e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            API consumida e consigo trouxe os dados dos países, onde ao adicionar ele
+                                            faz a soma, ou subtração dos habitantes em cada coluna.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            18/07/2020</p>
+                                        <a href="https://github.com/Rahgomes/igti-full-stack/tree/master/javascript/lista-paises"
+                                            title="Lista de Países" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="http://www.ramongomes.com.br/lista-paises/"
+                                        title="Ver Portfolio: Lista de Países" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/rgb-color-code.jpg"
+                                    alt="RGB Color Code" title="RGB Color Code" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">RGB <span class="font-weight-bold">Color
+                                                Code</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML, CSS e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Projeto simples de paleta de cores, que extrai no final seu código RGB.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            14/07/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/rgb%20color%20code"
+                                            title="RGB Color Code" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/XWXPgMW"
+                                        title="Ver Portfolio: RGB Color Code" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/todolist-static.jpg"
+                                    alt="Todo List Estático" title="Todo List Estático" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Todo List <span
+                                                class="font-weight-bold">Estático</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML, CSS e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Todo List estático, com apenas a funcionalidade de adicionar, atualizar e
+                                            deletar, sem a utilização de um banco de dados.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            13/07/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/todo%20list%20static"
+                                            title="Todo List Estático" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/mdVjYyJ"
+                                        title="Ver Portfolio: Todo List Estático" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/menu-lateral-fixo.jpg"
+                                    alt="Menu Lateral Fixo" title="Menu Lateral Fixo" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Menu Lateral <span
+                                                class="font-weight-bold">Fixo</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML e CSS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Implementando um menu diferenciado fixo à esquerda, fazendo o uso de SVG
+                                            para enriquecer o visual e o layout.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            02/06/2020</p>
+                                        <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/Menu%20fixo%20esquerda"
+                                            title="Menu Lateral Fixo" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/zYrYBQJ"
+                                        title="Ver Portfolio: Menu Lateral Fixo" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/botoes-redes-sociais-fixo.jpg"
+                                    alt="Botões Redes Sociais Fixo" title="Botões Redes Sociais Fixo" />
                                 <figcaption class="projeto-content-thumb">
                                     <div class="projeto-content-bloco">
                                         <h2 class="pb-1 projeto-subtitle-thumb">Botões Redes <span
@@ -195,7 +600,8 @@
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
                                                 utilizadas:</span> HTML e CSS</p>
                                         <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
-                                            Praticando novos estilos de botões para redes sociais, na implementação em projetos futuros.</p>
+                                            Praticando novos estilos de botões para redes sociais, na implementação em
+                                            projetos futuros.</p>
                                         <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
                                             17/05/2020</p>
                                         <a href="https://github.com/Rahgomes/Codepen-pens/tree/master/social%20button%20fixed"
@@ -211,7 +617,8 @@
                                         </a>
                                     </div>
                                     <a class="projeto-link-thumb" href="https://codepen.io/rahgomes/pen/ExVOawB"
-                                        title="Ver Portfolio: Botões Redes Sociais Fixo" rel="nofollow" target="_blank">Ver
+                                        title="Ver Portfolio: Botões Redes Sociais Fixo" rel="nofollow"
+                                        target="_blank">Ver
                                         Portfolio</a>
                                 </figcaption>
                             </figure>
@@ -278,6 +685,36 @@
                                 </figcaption>
                             </figure>
                             <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/e-mail-marketing.jpg"
+                                    alt="E-mail Marketing" title="E-mail Marketing" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="projeto-subtitle-thumb">E-mail <span
+                                                class="font-weight-bold">Marketing</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML e CSS</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Desafio feito em 2020.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            22/03/2020</p>
+                                        <a href="https://github.com/Rahgomes/email-marketing" title="E-mail Marketing"
+                                            rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="http://ramongomes.com.br/email-marketing/"
+                                        title="Ver Portfolio: E-mail Marketing" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
                                 <img class="projeto-imagem-thumb" src="./assets/img/layout-basic.jpg" alt="Layout Basic"
                                     title="Layout Basic" />
                                 <figcaption class="projeto-content-thumb">
@@ -309,8 +746,8 @@
                                 </figcaption>
                             </figure>
                             <figure class="projeto-efeito-thumb">
-                                <img class="projeto-imagem-thumb" src="./assets/img/flappy-bird-clone.jpg" alt="Flappy Bird Clone"
-                                    title="Flappy Bird Clone" />
+                                <img class="projeto-imagem-thumb" src="./assets/img/flappy-bird-clone.jpg"
+                                    alt="Flappy Bird Clone" title="Flappy Bird Clone" />
                                 <figcaption class="projeto-content-thumb">
                                     <div class="projeto-content-bloco">
                                         <h2 class="pb-1 projeto-subtitle-thumb">Flappy <span
@@ -515,6 +952,37 @@
                                     </div>
                                     <a class="projeto-link-thumb" href="http://ramongomes.com.br/rgomes-fotografia/"
                                         title="Ver Portfolio: RGomes Fotografia" rel="nofollow" target="_blank">Ver
+                                        Portfolio</a>
+                                </figcaption>
+                            </figure>
+                            <figure class="projeto-efeito-thumb">
+                                <img class="projeto-imagem-thumb" src="./assets/img/marvel-comics-clone.jpg"
+                                    alt="Marvel Comics clone" title="Marvel Comics clone" />
+                                <figcaption class="projeto-content-thumb">
+                                    <div class="projeto-content-bloco">
+                                        <h2 class="pb-1 projeto-subtitle-thumb">Marvel <span
+                                                class="font-weight-bold">Comics clone</span></h2>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Tecnologias
+                                                utilizadas:</span> HTML, CSS e JAVASCRIPT</p>
+                                        <p class="pb-1 projeto-desc-thumb"><span class="font-weight-bold">Resumo:</span>
+                                            Desafio feito no início de 2019 com o intuito de
+                                            replicar a página da Marvel e consumir sua API.</p>
+                                        <p class="projeto-desc-thumb"><span class="font-weight-bold">Data:</span>
+                                            10/03/2019</p>
+                                        <a href="https://github.com/Rahgomes/Projeto-Marvel-Comics"
+                                            title="Marvel Comics clone" rel="nofollow" target="_blank">
+                                            <svg width="30" height="30" aria-hidden="true" focusable="false"
+                                                data-prefix="fab" data-icon="github"
+                                                class="projeto-github svg-inline--fa fa-github fa-w-16" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                                <path fill="#ffffff"
+                                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <a class="projeto-link-thumb" href="http://ramongomes.com.br/marvel-comics/"
+                                        title="Ver Portfolio: Marvel Comics clone" rel="nofollow" target="_blank">Ver
                                         Portfolio</a>
                                 </figcaption>
                             </figure>
@@ -855,20 +1323,53 @@
                 </div>
             </div>
         </section>
+        <div class="m-backtotop" aria-hidden="true">
+            <div class="arrow">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.01 512.01"
+                    style="enable-background:new 0 0 512.01 512.01;" xml:space="preserve">
+                    <g>
+                        <path d="M505.755,358.256L271.088,123.589c-8.341-8.341-21.824-8.341-30.165,0L6.256,358.256c-8.341,8.341-8.341,21.824,0,30.165
+        s21.824,8.341,30.165,0l219.584-219.584l219.584,219.584c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251
+        C514.096,380.08,514.096,366.597,505.755,358.256z" />
+                    </g>
+                </svg>
+
+            </div>
+            <div class="text">
+                Voltar ao topo
+            </div>
+        </div>
     </main>
     <footer id="footer" class="footer">
         <section class="bg-footer w-100">
             <nav class="navbar-expand-lg d-flex">
                 <ul class="navbar-nav w-100 justify-content-center">
                     <li class="nav-item active">
-                        <a class="nav-link hover-line social-btn-m" href="index.html" title="Home">Home <span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link hover-line social-btn-m nav-link-footer" href="index.html" title="Home">Home
+                            <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hover-line social-btn-m" href="projetos.html" title="Projetos">Projetos</a>
+                        <a class="nav-link hover-line social-btn-m nav-link-footer" href="projetos.html"
+                            title="Projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hover-line social-btn-m" href="contato.html" title="Contato">Contato</a>
+                        <a class="nav-link hover-line social-btn-m nav-link-footer"
+                            href="http://www.ferramentas.ramongomes.com.br/ferramentas" target="_blank"
+                            title="Ferramentas">Ferramentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-line social-btn-m nav-link-footer"
+                            href="http://www.ramongomes.com.br/ferramentasfrontend/" target="_blank"
+                            title="Ferramentas Front-end">Ferramentas Front-end</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-line social-btn-m nav-link-footer"
+                            href="http://blog.ramongomes.com.br/" target="_blank" title="Blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-line social-btn-m nav-link-footer" href="contato.html"
+                            title="Contato">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -877,22 +1378,31 @@
                         class="hover-line social-btn-m" title="Linkedin" target="_blank" rel="nofollow"><img
                             class="svg-contato" src="./assets/img/linkedin-in.svg" alt="Linkedin" title="Linkedin"></a>
                 </li>
-                <li class="pr-3 footer-social-btn-m text-center"><a href="https://twitter.com/rahgomes1992"
+                <!-- <li class="pr-3 footer-social-btn-m text-center"><a href="https://twitter.com/rahgomes1992"
                         class="hover-line social-btn-m" title="Twitter" target="_blank" rel="nofollow"><img
-                            class="svg-contato" src="./assets/img/twitter.svg" alt="Twitter" title="Twitter"></a></li>
+                            class="svg-contato" src="./assets/img/twitter.svg" alt="Twitter" title="Twitter"></a>
+                </li> -->
                 <li class="pr-3 footer-social-btn-m text-center"><a href="https://github.com/Rahgomes"
                         class="hover-line social-btn-m" title="Github" target="_blank" rel="nofollow"><img
-                            class="svg-contato" src="./assets/img/github.svg" alt="Github" title="Github"></a></li>
+                            class="svg-contato" src="./assets/img/github.svg" alt="Github" title="Github"></a>
+                </li>
                 <li class="pr-3 footer-social-btn-m text-center"><a href="https://codepen.io/rahgomes/"
                         class="hover-line social-btn-m" title="Codepen" target="_blank" rel="nofollow"><img
-                            class="svg-contato" src="./assets/img/codepen.svg" alt="Codepen" title="Codepen"></a></li>
+                            class="svg-contato" src="./assets/img/codepen.svg" alt="Codepen" title="Codepen"></a>
+                </li>
+                <li class="pr-3 footer-social-btn-m text-center"><a href="https://codesandbox.io/u/Rahgomes"
+                        class="hover-line social-btn-m" title="Code Sandbox" target="_blank" rel="nofollow"><img
+                            class="svg-contato" src="./assets/img/codesandbox.svg" alt="Code Sandbox"
+                            title="Code Sandbox"></a>
+                </li>
                 <li class="footer-social-btn-m text-center"><a href="mailto:ramon_gds@hotmail.com"
                         class="hover-line social-btn-m" title="Entre em contato via e-mail" target="_blank"
                         rel="nofollow"><img class="svg-contato" src="./assets/img/envelope-regular.svg"
-                            alt="Entre em contato via e-mail" title="Entre em contato via e-mail"></a></li>
+                            alt="Entre em contato via e-mail" title="Entre em contato via e-mail"></a>
+                </li>
             </ul>
         </section>
-    </footer> -->
+    </footer>
 
     <!-- build:js assets/js/base/jquery.js -->
     <script src="./assets/js/base/jquery.js"></script>
@@ -902,6 +1412,9 @@
     <!-- endbuild -->
     <!-- build:js assets/js/module/hero.js -->
     <script src="./assets/js/module/hero.js"></script>
+    <!-- endbuild -->
+    <!-- build:js assets/js/module/botao-topo.js -->
+    <script src="./assets/js/module/botao-topo.js"></script>
     <!-- endbuild -->
 </body>
 

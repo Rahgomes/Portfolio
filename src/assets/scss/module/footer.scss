@@ -1,3 +1,9 @@
+.navbar-nav .nav-item .nav-link.nav-link-footer {
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 1em !important;
+}
+
 @media (max-width:500px) {
     .footer {
         align-items: flex-end;
@@ -8,6 +14,12 @@
         align-items: center;
     }
 
+    .navbar-nav .nav-item .nav-link.nav-link-footer {
+        font-size: 18px;
+        text-align: center;
+        padding: 12px 1em !important;
+    }
+
     .footer-social .footer-social-btn-m {
         padding-right: 0 !important;
         width: 100%;
@@ -16,7 +28,7 @@
     .social-btn-m {
         display: block;
         width: 100%;
-        background: linear-gradient(20deg, #100e17, #1b1827, #100e17);
-        padding: 20px 0px;
+        background: linear-gradient(20deg, #3d2c60, #473174, #3d2c60);
+        padding: 15px 0px;
     }
 }
